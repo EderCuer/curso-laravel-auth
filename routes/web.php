@@ -27,3 +27,15 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function(){
 	});
 
 });
+
+// Route::group(['middleware' => 'auth'], function(){
+//     Route::get('/test', function(){
+//         echo "Olá Mundo!";
+//     });
+// });
+
+Route::group(['middleware' => 'guest'], function(){
+    Route::get('/test', function(){
+        echo "Olá Mundo!";
+    });
+});
