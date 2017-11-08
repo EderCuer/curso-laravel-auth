@@ -37,8 +37,14 @@ return [
 
     'github' => [
         'client_id' => env('GITHUB_CLIENT_ID'),
-        'cliente_secret' => env('GITHUB_CLIENT_SECRET'),
-        'redirect' => env('GITHUB_CLIENT_REDIRECT'),
+        'client_secret' => env('GITHUB_CLIENT_SECRET'),
+        'redirect' => env('CLIENT_REDIRECT'),
+    ],
+
+    'google' => [
+        'client_id' => '524427193861-3lpthnc9v76cle85mq0mnk27sjma1qj2.apps.googleusercontent.com',
+        'client_secret' => 'E8KxIkloo1BvQ_Kxrq7ibXNg',
+        'redirect' => env('CLIENT_REDIRECT'),
     ],
 
 ];

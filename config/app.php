@@ -163,7 +163,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        Illuminate\Socialite\SocialiteServiceProvider::class,
+        \Laravel\Socialite\SocialiteServiceProvider::class,
 
         /*
          * Package Service Providers...
